@@ -55,8 +55,8 @@ notifications.
 local Library = loadstring(game:HttpGet("http://nyee.online/uilib.lua"))()
 
 local Window = Library:CreateWindow({
-    Title = "Phantom Hub",
-    ConfigFolder = "PhantomHub",
+    Title = "Local Hub",
+    ConfigFolder = "Local Hub",
     Logo = 124163837094498,        -- asset id, or omit for the 3-line icon
 })
 
@@ -83,11 +83,11 @@ Creates the main window.
 
 ```lua
 local Window = Library:CreateWindow({
-    Title          = "Phantom Hub",                  -- shown in the side bar + status bar
-    Subtitle       = "main.lua — Phantom Hub",       -- centered text in the title bar
+    Title          = "Local Hub",                  -- shown in the side bar + status bar
+    Subtitle       = "main.lua — Local Hub",       -- centered text in the title bar
     Size           = UDim2.new(0, 740, 0, 470),      -- window size
     ToggleKey      = Enum.KeyCode.RightShift,         -- key that hides / shows the window
-    ConfigFolder   = "PhantomHub",                    -- folder where configs are saved
+    ConfigFolder   = "Local Hub",                    -- folder where configs are saved
     Logo           = 124163837094498,                 -- toggle-button logo (asset id); omit = 3-line icon
     TogglePosition = "left",                           -- "left" | "center" | UDim2
     ToggleSize     = 52,                               -- toggle button size in pixels
