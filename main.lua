@@ -11,7 +11,7 @@
     Usage:  local Library = loadstring(readfile("VSCodeUILib.lua"))()
             (or require the ModuleScript)
 
-    Author: Kiro
+    Author: local hub
 ]]
 
 local UILib = {}
